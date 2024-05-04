@@ -1,4 +1,1 @@
-const person = { name: "Alice", age: 30 };
-if (person.hasOwnProperty("age")) {
-  console.log("The person has an age property");
-}
+const average = (arr) => arr.reduce((a, v) => a + v, 0) / arr.length;
